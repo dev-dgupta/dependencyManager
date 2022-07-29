@@ -1,0 +1,5 @@
+File resources in this folder will be copied in the 'wrk' directory of the destination artifact.
+
+This folder represents the working directory image of the deployed component. 
+
+NOTE: the file user.jinit.template is here for demo purposes. You must edit or delete it.

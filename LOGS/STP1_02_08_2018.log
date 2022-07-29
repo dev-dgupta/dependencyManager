@@ -1,0 +1,441 @@
+10:50:06:586|0140-00040:APP: Application {INFO} Action {START} Type {SimpleION20App} Version {0.0.1} Description {Simple ION 2.0 Application} ReleaseDate {na}
+10:50:06:586|0056-00040:APP: Application {INFO} Action {Starting Services}
+10:50:06:586|4630-00040:BOOT: Service Manager {INFO} Action {Starting} Classpath {C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\ideaProjects\dependencyManager\target\classes;C:\mvn\com\iontrading\isf\application_server\0.1.59\application_server-0.1.59.jar;C:\mvn\com\iontrading\isf\configuration_core\0.2.44\configuration_core-0.2.44.jar;C:\mvn\com\iontrading\isf\boot\0.2.45\boot-0.2.45.jar;C:\mvn\com\iontrading\isf\slf4j-jmkv\0.0.43\slf4j-jmkv-0.0.43.jar;C:\mvn\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\mvn\com\iontrading\isf\modules\0.2.16\modules-0.2.16.jar;C:\mvn\com\google\inject\extensions\guice-multibindings\4.0\guice-multibindings-4.0.jar;C:\mvn\com\google\inject\guice\4.0\guice-4.0.jar;C:\mvn\javax\inject\javax.inject\1\javax.inject-1.jar;C:\mvn\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\mvn\com\iontrading\isf\commons\0.0.23\commons-0.0.23.jar;C:\mvn\com\iontrading\isf\as_plugin_api\0.0.13\as_plugin_api-0.0.13.jar;C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar;C:\mvn\com\iontrading\isf\tracing\0.3.40\tracing-0.3.40.jar;C:\mvn\com\iontrading\isf\modules_annotations\0.2.14\modules_annotations-0.2.14.jar;C:\mvn\com\iontrading\jmix\jmix_logging\2.0.41\jmix_logging-2.0.41.jar;C:\mvn\com\iontrading\mkv_wrappers\2.0.24\mkv_wrappers-2.0.24.jar;C:\mvn\com\iontrading\jmkv\1.3.6-p3d1\jmkv-1.3.6-p3d1-obfuscated.jar;C:\mvn\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\mvn\com\iontrading\isf\dependency_manager\0.0.58\dependency_manager-0.0.58.jar;C:\mvn\com\iontrading\isf\concurrent\0.2.59\concurrent-0.2.59.jar;C:\mvn\com\iontrading\cat\jsr166y-repackage\1.7.2\jsr166y-repackage-1.7.2.jar;C:\mvn\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\mvn\com\iontrading\isf\service_manager\0.1.63\service_manager-0.1.63.jar;C:\mvn\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\mvn\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\mvn\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\mvn\com\iontrading\talk\talk.ionbus\0.7.74\talk.ionbus-0.7.74.jar;C:\mvn\com\iontrading\talk\talk.api\0.7.61\talk.api-0.7.61.jar;C:\mvn\com\iontrading\isf\repository\0.0.33\repository-0.0.33.jar;C:\mvn\com\iontrading\talk\talk.metadata\0.7.66\talk.metadata-0.7.66.jar;C:\mvn\com\iontrading\talk\talk.metadata.api\0.7.65\talk.metadata.api-0.7.65.jar;C:\mvn\com\iontrading\isf\metadata\0.1.45\metadata-0.1.45.jar;C:\mvn\org\springframework\spring-beans\4.0.5.RELEASE\spring-beans-4.0.5.RELEASE.jar;C:\mvn\com\iontrading\talk\talk.common\0.7.55\talk.common-0.7.55.jar;C:\mvn\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\mvn\com\iontrading\talk\talk.convert\0.7.69\talk.convert-0.7.69.jar;C:\mvn\com\iontrading\isf\commons-bus\0.0.9\commons-bus-0.0.9.jar;C:\mvn\com\iontrading\jmix\jmix_platform\2.0.52\jmix_platform-2.0.52.jar;C:\mvn\com\google\guava\guava\14.0.1\guava-14.0.1.jar;C:\mvn\com\iontrading\isf\conversion\0.0.46\conversion-0.0.46.jar;C:\mvn\org\springframework\spring-core\4.0.5.RELEASE\spring-core-4.0.5.RELEASE.jar;C:\mvn\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\mvn\com\google\inject\extensions\guice-assistedinject\4.0\guice-assistedinject-4.0.jar;C:\mvn\com\iontrading\cat\proguard_annotations\0.0.2\proguard_annotations-0.0.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.7\lib\idea_rt.jar}
+10:50:06:589|0114-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.ion20_simple_component.ApplicationModule}
+10:50:06:590|0181-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.boot.guice.BootModule} Path {file:/C:/mvn/com/iontrading/isf/boot/0.2.45/boot-0.2.45.jar} Version {null}
+10:50:06:590|0190-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.trace.guice.TracerModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:50:06:591|0206-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.trace.guice.TracerDefaultArgumentsModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:50:06:591|0210-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.log.adapters.mkv.SmartMkvTracerFactoryModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:50:06:591|0203-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.mkv_wrapper.guice.MkvProviderModule} Path {file:/C:/mvn/com/iontrading/mkv_wrappers/2.0.24/mkv_wrappers-2.0.24.jar} Version {null}
+10:50:06:591|0231-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.configuration.guice.ConfigurationCoreModule} Path {file:/C:/mvn/com/iontrading/isf/configuration_core/0.2.44/configuration_core-0.2.44.jar} Version {null}
+10:50:06:592|0250-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.configuration.adapters.mkv.MkvConfigurationValueProviderModule} Path {file:/C:/mvn/com/iontrading/isf/configuration_core/0.2.44/configuration_core-0.2.44.jar} Version {null}
+10:50:06:592|0202-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.mkv_wrapper.guice.MkvWrapperModule} Path {file:/C:/mvn/com/iontrading/mkv_wrappers/2.0.24/mkv_wrappers-2.0.24.jar} Version {null}
+10:50:06:592|0261-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.dependency_manager.providers.guice.ServiceManagerDependencyProviderModule} Path {file:/C:/mvn/com/iontrading/isf/dependency_manager/0.0.58/dependency_manager-0.0.58.jar} Version {null}
+10:50:06:592|0224-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.service_manager.guice.ServiceManagerModule} Path {file:/C:/mvn/com/iontrading/isf/service_manager/0.1.63/service_manager-0.1.63.jar} Version {null}
+10:50:06:593|0213-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.guice.PlatformConfigurationModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_platform/2.0.52/jmix_platform-2.0.52.jar} Version {null}
+10:50:06:593|0196-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.lock.guice.ISFLockModule} Path {file:/C:/mvn/com/iontrading/isf/concurrent/0.2.59/concurrent-0.2.59.jar} Version {null}
+10:50:06:593|0206-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.executors.guice.ISFExecutorsModule} Path {file:/C:/mvn/com/iontrading/isf/concurrent/0.2.59/concurrent-0.2.59.jar} Version {null}
+10:50:06:594|0236-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.dependency_manager.guice.DependencyManagerModule} Path {file:/C:/mvn/com/iontrading/isf/dependency_manager/0.0.58/dependency_manager-0.0.58.jar} Version {null}
+10:50:06:594|0205-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.TalkIonBusModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:50:06:594|0219-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.DefaultTalkConfigurationModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:50:06:594|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.DefaultPlatformInfoModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:50:06:595|0200-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.guice.PlatformModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_platform/2.0.52/jmix_platform-2.0.52.jar} Version {null}
+10:50:06:595|0212-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.logging.guice.JMIXLogAdapterModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_logging/2.0.41/jmix_logging-2.0.41.jar} Version {null}
+10:50:06:595|0209-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.convert.guice.TalkConvertModule} Path {file:/C:/mvn/com/iontrading/talk/talk.convert/0.7.69/talk.convert-0.7.69.jar} Version {null}
+10:50:06:595|0203-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.api.guice.TalkIdentifiablesModule} Path {file:/C:/mvn/com/iontrading/talk/talk.api/0.7.61/talk.api-0.7.61.jar} Version {null}
+10:50:06:595|0213-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.metadata.guice.TalkMetadataModule} Path {file:/C:/mvn/com/iontrading/talk/talk.metadata/0.7.66/talk.metadata-0.7.66.jar} Version {null}
+10:50:06:596|0197-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.metadata.guice.MetadataModule} Path {file:/C:/mvn/com/iontrading/isf/metadata/0.1.45/metadata-0.1.45.jar} Version {null}
+10:50:06:596|0205-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.conversion.guice.ConversionModule} Path {file:/C:/mvn/com/iontrading/isf/conversion/0.0.46/conversion-0.0.46.jar} Version {null}
+10:50:06:596|0190-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.api.guice.TalkModule} Path {file:/C:/mvn/com/iontrading/talk/talk.api/0.7.61/talk.api-0.7.61.jar} Version {null}
+10:50:06:597|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$3} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:597|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$6} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:597|0227-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.plugins.config.impl.j} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:598|0212-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.a} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:598|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$4} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:598|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$5} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:50:06:598|0068-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {INIT}
+10:50:06:605|0108-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {DEFAULT}
+10:50:06:611|0058-00040:CONCURRENT: {INFO} Service {ServiceManagerLifeCycle}
+10:50:06:619|0076-00040:APP: {INFO} Action {Service started} Service {ServiceManagerLifeCycle}
+10:50:06:619|0078-00040:APP: {INFO} Action {Starting service} Service {ExecutorsRegistryService}
+10:50:06:619|0077-00040:APP: {INFO} Action {Service started} Service {ExecutorsRegistryService}
+10:50:06:622|0084-00040:APP: {INFO} Action {Starting service} Service {Dependency Manager Registrator}
+10:50:06:622|0083-00040:APP: {INFO} Action {Service started} Service {Dependency Manager Registrator}
+10:50:06:622|0082-00040:APP: {INFO} Action {Starting service} Service {IdentifiableResolverRegistry}
+10:50:06:622|0081-00040:APP: {INFO} Action {Service started} Service {IdentifiableResolverRegistry}
+10:50:06:622|0070-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {CONFIG}
+10:50:06:623|0082-00040:APP: {INFO} Action {Starting service} Service {Executors Monitoring Service}
+10:50:06:623|0159-00040:EXECUTORS_MONITORING: Executors monitoring {INFO} Action {Configuration} Enabled {true} PollInterval {60} WarningThreshold {120} StackDumpInterval {3600}
+10:50:06:626|0081-00040:APP: {INFO} Action {Service started} Service {Executors Monitoring Service}
+10:50:06:626|0075-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {POST_CONFIG}
+10:50:06:627|0069-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {START}
+10:50:06:627|0076-00040:APP: {INFO} Action {Starting service} Service {ExternalServiceManager}
+10:50:06:627|0075-00040:APP: {INFO} Action {Service started} Service {ExternalServiceManager}
+10:50:06:740|0109-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {FUNCTION}
+10:50:06:740|0113-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {NOTIFICATION}
+10:50:06:741|0067-00040:CONCURRENT: {INFO} Service {Talk IonBus Exporter Initializer}
+10:50:06:741|0085-00040:APP: {INFO} Action {Service started} Service {Talk IonBus Exporter Initializer}
+10:50:06:741|0071-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {PLUGINS}
+10:50:06:741|0071-00040:APP: {INFO} Action {Starting service} Service {Plugin Activation}
+10:50:06:741|0087-00040:APP: Plugin Activation {INFO} Action {Plugins activation start} NumberPlugins {0}
+10:50:06:741|0067-00040:APP: Plugin Activation {INFO} Action {Plugins activation end}
+10:50:06:741|0070-00040:APP: {INFO} Action {Service started} Service {Plugin Activation}
+10:50:06:741|0067-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {RUN}
+10:50:06:741|0071-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {RUNNING}
+10:50:06:754|0071-00040:APP: {INFO} Action {Starting service} Service {SubscriberService}
+10:50:06:815|0108-00040:TALK.IONBUS: Subscription {INFO} Action {Startup} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+10:50:06:817|0152-00040:SERVICEMANAGER: Service Manager {INFO} Action {Service not yet available. Adding interest to both Bus and External service} Service {TradeService}
+10:50:06:818|0098-00040:SERVICEMANAGER: Service notification {INFO} Action {Interest added} ServiceId {TradeService}
+10:50:06:818|0124-00040:SERVICEMANAGER: External Service notification {INFO} Action {External service interest added} ServiceId {TradeService}
+10:50:09:271|0070-00040:APP: {INFO} Action {Service started} Service {SubscriberService}
+10:50:09:418|0108-00037:SERVICEMANAGER: Service notification {INFO} Action {Status change} ServiceId {TradeService} Active {1}
+10:50:09:419|0120-00042:SERVICEMANAGER: Service Manager {INFO} Action {Bus Service Manager taking over the service} Service {TradeService}
+10:51:13:599|0140-00040:APP: Application {INFO} Action {START} Type {SimpleION20App} Version {0.0.1} Description {Simple ION 2.0 Application} ReleaseDate {na}
+10:51:13:599|0056-00040:APP: Application {INFO} Action {Starting Services}
+10:51:13:599|4630-00040:BOOT: Service Manager {INFO} Action {Starting} Classpath {C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\ideaProjects\dependencyManager\target\classes;C:\mvn\com\iontrading\isf\application_server\0.1.59\application_server-0.1.59.jar;C:\mvn\com\iontrading\isf\configuration_core\0.2.44\configuration_core-0.2.44.jar;C:\mvn\com\iontrading\isf\boot\0.2.45\boot-0.2.45.jar;C:\mvn\com\iontrading\isf\slf4j-jmkv\0.0.43\slf4j-jmkv-0.0.43.jar;C:\mvn\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\mvn\com\iontrading\isf\modules\0.2.16\modules-0.2.16.jar;C:\mvn\com\google\inject\extensions\guice-multibindings\4.0\guice-multibindings-4.0.jar;C:\mvn\com\google\inject\guice\4.0\guice-4.0.jar;C:\mvn\javax\inject\javax.inject\1\javax.inject-1.jar;C:\mvn\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\mvn\com\iontrading\isf\commons\0.0.23\commons-0.0.23.jar;C:\mvn\com\iontrading\isf\as_plugin_api\0.0.13\as_plugin_api-0.0.13.jar;C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar;C:\mvn\com\iontrading\isf\tracing\0.3.40\tracing-0.3.40.jar;C:\mvn\com\iontrading\isf\modules_annotations\0.2.14\modules_annotations-0.2.14.jar;C:\mvn\com\iontrading\jmix\jmix_logging\2.0.41\jmix_logging-2.0.41.jar;C:\mvn\com\iontrading\mkv_wrappers\2.0.24\mkv_wrappers-2.0.24.jar;C:\mvn\com\iontrading\jmkv\1.3.6-p3d1\jmkv-1.3.6-p3d1-obfuscated.jar;C:\mvn\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\mvn\com\iontrading\isf\dependency_manager\0.0.58\dependency_manager-0.0.58.jar;C:\mvn\com\iontrading\isf\concurrent\0.2.59\concurrent-0.2.59.jar;C:\mvn\com\iontrading\cat\jsr166y-repackage\1.7.2\jsr166y-repackage-1.7.2.jar;C:\mvn\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\mvn\com\iontrading\isf\service_manager\0.1.63\service_manager-0.1.63.jar;C:\mvn\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\mvn\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\mvn\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\mvn\com\iontrading\talk\talk.ionbus\0.7.74\talk.ionbus-0.7.74.jar;C:\mvn\com\iontrading\talk\talk.api\0.7.61\talk.api-0.7.61.jar;C:\mvn\com\iontrading\isf\repository\0.0.33\repository-0.0.33.jar;C:\mvn\com\iontrading\talk\talk.metadata\0.7.66\talk.metadata-0.7.66.jar;C:\mvn\com\iontrading\talk\talk.metadata.api\0.7.65\talk.metadata.api-0.7.65.jar;C:\mvn\com\iontrading\isf\metadata\0.1.45\metadata-0.1.45.jar;C:\mvn\org\springframework\spring-beans\4.0.5.RELEASE\spring-beans-4.0.5.RELEASE.jar;C:\mvn\com\iontrading\talk\talk.common\0.7.55\talk.common-0.7.55.jar;C:\mvn\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\mvn\com\iontrading\talk\talk.convert\0.7.69\talk.convert-0.7.69.jar;C:\mvn\com\iontrading\isf\commons-bus\0.0.9\commons-bus-0.0.9.jar;C:\mvn\com\iontrading\jmix\jmix_platform\2.0.52\jmix_platform-2.0.52.jar;C:\mvn\com\google\guava\guava\14.0.1\guava-14.0.1.jar;C:\mvn\com\iontrading\isf\conversion\0.0.46\conversion-0.0.46.jar;C:\mvn\org\springframework\spring-core\4.0.5.RELEASE\spring-core-4.0.5.RELEASE.jar;C:\mvn\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\mvn\com\google\inject\extensions\guice-assistedinject\4.0\guice-assistedinject-4.0.jar;C:\mvn\com\iontrading\cat\proguard_annotations\0.0.2\proguard_annotations-0.0.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.7\lib\idea_rt.jar}
+10:51:13:603|0114-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.ion20_simple_component.ApplicationModule}
+10:51:13:604|0190-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.trace.guice.TracerModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:51:13:604|0206-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.trace.guice.TracerDefaultArgumentsModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:51:13:605|0210-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.log.adapters.mkv.SmartMkvTracerFactoryModule} Path {file:/C:/mvn/com/iontrading/isf/tracing/0.3.40/tracing-0.3.40.jar} Version {null}
+10:51:13:605|0203-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.mkv_wrapper.guice.MkvProviderModule} Path {file:/C:/mvn/com/iontrading/mkv_wrappers/2.0.24/mkv_wrappers-2.0.24.jar} Version {null}
+10:51:13:605|0205-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.TalkIonBusModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:51:13:606|0224-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.service_manager.guice.ServiceManagerModule} Path {file:/C:/mvn/com/iontrading/isf/service_manager/0.1.63/service_manager-0.1.63.jar} Version {null}
+10:51:13:606|0206-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.executors.guice.ISFExecutorsModule} Path {file:/C:/mvn/com/iontrading/isf/concurrent/0.2.59/concurrent-0.2.59.jar} Version {null}
+10:51:13:606|0181-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.boot.guice.BootModule} Path {file:/C:/mvn/com/iontrading/isf/boot/0.2.45/boot-0.2.45.jar} Version {null}
+10:51:13:606|0231-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.configuration.guice.ConfigurationCoreModule} Path {file:/C:/mvn/com/iontrading/isf/configuration_core/0.2.44/configuration_core-0.2.44.jar} Version {null}
+10:51:13:607|0250-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.configuration.adapters.mkv.MkvConfigurationValueProviderModule} Path {file:/C:/mvn/com/iontrading/isf/configuration_core/0.2.44/configuration_core-0.2.44.jar} Version {null}
+10:51:13:607|0202-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.mkv_wrapper.guice.MkvWrapperModule} Path {file:/C:/mvn/com/iontrading/mkv_wrappers/2.0.24/mkv_wrappers-2.0.24.jar} Version {null}
+10:51:13:608|0196-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.lock.guice.ISFLockModule} Path {file:/C:/mvn/com/iontrading/isf/concurrent/0.2.59/concurrent-0.2.59.jar} Version {null}
+10:51:13:608|0213-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.guice.PlatformConfigurationModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_platform/2.0.52/jmix_platform-2.0.52.jar} Version {null}
+10:51:13:608|0190-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.api.guice.TalkModule} Path {file:/C:/mvn/com/iontrading/talk/talk.api/0.7.61/talk.api-0.7.61.jar} Version {null}
+10:51:13:609|0203-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.api.guice.TalkIdentifiablesModule} Path {file:/C:/mvn/com/iontrading/talk/talk.api/0.7.61/talk.api-0.7.61.jar} Version {null}
+10:51:13:609|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.DefaultPlatformInfoModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:51:13:610|0219-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.ionbus.guice.DefaultTalkConfigurationModule} Path {file:/C:/mvn/com/iontrading/talk/talk.ionbus/0.7.74/talk.ionbus-0.7.74.jar} Version {null}
+10:51:13:610|0209-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.convert.guice.TalkConvertModule} Path {file:/C:/mvn/com/iontrading/talk/talk.convert/0.7.69/talk.convert-0.7.69.jar} Version {null}
+10:51:13:610|0205-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.conversion.guice.ConversionModule} Path {file:/C:/mvn/com/iontrading/isf/conversion/0.0.46/conversion-0.0.46.jar} Version {null}
+10:51:13:610|0213-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.talk.metadata.guice.TalkMetadataModule} Path {file:/C:/mvn/com/iontrading/talk/talk.metadata/0.7.66/talk.metadata-0.7.66.jar} Version {null}
+10:51:13:611|0197-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.metadata.guice.MetadataModule} Path {file:/C:/mvn/com/iontrading/isf/metadata/0.1.45/metadata-0.1.45.jar} Version {null}
+10:51:13:611|0200-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.guice.PlatformModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_platform/2.0.52/jmix_platform-2.0.52.jar} Version {null}
+10:51:13:612|0212-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.jmix.logging.guice.JMIXLogAdapterModule} Path {file:/C:/mvn/com/iontrading/jmix/jmix_logging/2.0.41/jmix_logging-2.0.41.jar} Version {null}
+10:51:13:612|0261-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.dependency_manager.providers.guice.ServiceManagerDependencyProviderModule} Path {file:/C:/mvn/com/iontrading/isf/dependency_manager/0.0.58/dependency_manager-0.0.58.jar} Version {null}
+10:51:13:613|0236-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.dependency_manager.guice.DependencyManagerModule} Path {file:/C:/mvn/com/iontrading/isf/dependency_manager/0.0.58/dependency_manager-0.0.58.jar} Version {null}
+10:51:13:613|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$3} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$6} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0227-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.plugins.config.impl.j} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0212-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.a} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$4} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0214-00040:BOOT: Service Manager {INFO} Action {Module} Class {com.iontrading.isf.applicationserver.impl.g$5} Path {file:/C:/mvn/com/iontrading/isf/application_server/0.1.59/application_server-0.1.59.jar} Version {null}
+10:51:13:614|0068-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {INIT}
+10:51:13:622|0108-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {DEFAULT}
+10:51:13:627|0058-00040:CONCURRENT: {INFO} Service {ServiceManagerLifeCycle}
+10:51:13:633|0076-00040:APP: {INFO} Action {Service started} Service {ServiceManagerLifeCycle}
+10:51:13:633|0078-00040:APP: {INFO} Action {Starting service} Service {ExecutorsRegistryService}
+10:51:13:633|0077-00040:APP: {INFO} Action {Service started} Service {ExecutorsRegistryService}
+10:51:13:634|0082-00040:APP: {INFO} Action {Starting service} Service {IdentifiableResolverRegistry}
+10:51:13:634|0081-00040:APP: {INFO} Action {Service started} Service {IdentifiableResolverRegistry}
+10:51:13:636|0084-00040:APP: {INFO} Action {Starting service} Service {Dependency Manager Registrator}
+10:51:13:636|0083-00040:APP: {INFO} Action {Service started} Service {Dependency Manager Registrator}
+10:51:13:636|0070-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {CONFIG}
+10:51:13:637|0082-00040:APP: {INFO} Action {Starting service} Service {Executors Monitoring Service}
+10:51:13:638|0159-00040:EXECUTORS_MONITORING: Executors monitoring {INFO} Action {Configuration} Enabled {true} PollInterval {60} WarningThreshold {120} StackDumpInterval {3600}
+10:51:13:641|0081-00040:APP: {INFO} Action {Service started} Service {Executors Monitoring Service}
+10:51:13:641|0075-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {POST_CONFIG}
+10:51:13:641|0069-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {START}
+10:51:13:765|0109-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {FUNCTION}
+10:51:13:765|0113-00040:CONCURRENT: ExecutorsRegistry {INFO} Action {Added monitoring for executor service} PoolName {NOTIFICATION}
+10:51:13:766|0067-00040:CONCURRENT: {INFO} Service {Talk IonBus Exporter Initializer}
+10:51:13:766|0085-00040:APP: {INFO} Action {Service started} Service {Talk IonBus Exporter Initializer}
+10:51:13:766|0076-00040:APP: {INFO} Action {Starting service} Service {ExternalServiceManager}
+10:51:13:766|0075-00040:APP: {INFO} Action {Service started} Service {ExternalServiceManager}
+10:51:13:766|0071-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {PLUGINS}
+10:51:13:766|0071-00040:APP: {INFO} Action {Starting service} Service {Plugin Activation}
+10:51:13:766|0087-00040:APP: Plugin Activation {INFO} Action {Plugins activation start} NumberPlugins {0}
+10:51:13:766|0067-00040:APP: Plugin Activation {INFO} Action {Plugins activation end}
+10:51:13:766|0070-00040:APP: {INFO} Action {Service started} Service {Plugin Activation}
+10:51:13:766|0067-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {RUN}
+10:51:13:767|0071-00040:BOOT: Service Manager {INFO} Action {Starting} RunPhase {RUNNING}
+10:51:13:780|0071-00040:APP: {INFO} Action {Starting service} Service {SubscriberService}
+10:51:13:836|0108-00040:TALK.IONBUS: Subscription {INFO} Action {Startup} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+10:51:13:838|0152-00040:SERVICEMANAGER: Service Manager {INFO} Action {Service not yet available. Adding interest to both Bus and External service} Service {TradeService}
+10:51:13:839|0098-00040:SERVICEMANAGER: Service notification {INFO} Action {Interest added} ServiceId {TradeService}
+10:51:13:839|0124-00040:SERVICEMANAGER: External Service notification {INFO} Action {External service interest added} ServiceId {TradeService}
+10:51:15:638|0070-00040:APP: {INFO} Action {Service started} Service {SubscriberService}
+10:51:15:787|0108-00037:SERVICEMANAGER: Service notification {INFO} Action {Status change} ServiceId {TradeService} Active {1}
+10:51:15:789|0120-00042:SERVICEMANAGER: Service Manager {INFO} Action {Bus Service Manager taking over the service} Service {TradeService}
+10:51:15:792|0100-00042:SERVICEMANAGER: Service notification {INFO} Action {Interest removed} ServiceId {TradeService}
+10:51:15:792|0126-00042:SERVICEMANAGER: External Service notification {INFO} Action {External service interest removed} ServiceId {TradeService}
+10:51:15:815|0202-00037:TALK.IONBUS: Subscription {INFO} Action {Record Add} SubscriptionId {TradeService.PublisherTrade.TRADE.0} Record {ANY.Trade.R567.123} Price {22} qty {22} trader_Id {333} trader_Name {foo} Id {123}
+10:51:15:816|0207-00037:TALK.IONBUS: Subscription {INFO} Action {Record Add} SubscriptionId {TradeService.PublisherTrade.TRADE.0} Record {ANY.Trade.R567.345} Price {344.654} qty {6} trader_Id {34} trader_Name {Peter} Id {345}
+10:51:15:816|0207-00037:TALK.IONBUS: Subscription {INFO} Action {Record Add} SubscriptionId {TradeService.PublisherTrade.TRADE.0} Record {ANY.Trade.R567.234} Price {314.654} qty {6} trader_Id {34} trader_Name {Anjai} Id {234}
+10:51:15:816|0202-00037:TALK.IONBUS: Subscription {INFO} Action {Record Add} SubscriptionId {TradeService.PublisherTrade.TRADE.0} Record {ANY.Trade.R567.13} Price {22} qty {22} trader_Id {53} trader_Name {footyu} Id {13}
+10:51:15:816|0113-00037:TALK.IONBUS: Subscription {INFO} Action {Download end} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+10:51:15:817|1087-00043:TALK.IONBUS: Subscription {ERROR} Action {Error while managing supply event} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+java.lang.IllegalStateException: Instantiation of class failed: class com.iontrading.ion20_simple_component.subscriberFunctions.PublisherTrade
+	at com.iontrading.talk.ionbus.impl.l.a(SupplyMapperImpl.java:230)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:213)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:178)
+	at com.iontrading.talk.ionbus.impl.k.fromSupply(SupplyMapperExtImpl.java:40)
+	at com.iontrading.talk.ionbus.subscriber.impl.l$1.run(SubscriptionExtNotifierImpl.java:102)
+	at com.iontrading.isf.executors.impl.SequentialExecutorServiceProxy$1.run(SequentialExecutorServiceProxy.java:153)
+	at com.iontrading.isf.executors.impl.monitoring.e.run(MonitoredRunnable.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:51:15:818|1087-00044:TALK.IONBUS: Subscription {ERROR} Action {Error while managing supply event} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+java.lang.IllegalStateException: Instantiation of class failed: class com.iontrading.ion20_simple_component.subscriberFunctions.PublisherTrade
+	at com.iontrading.talk.ionbus.impl.l.a(SupplyMapperImpl.java:230)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:213)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:178)
+	at com.iontrading.talk.ionbus.impl.k.fromSupply(SupplyMapperExtImpl.java:40)
+	at com.iontrading.talk.ionbus.subscriber.impl.l$1.run(SubscriptionExtNotifierImpl.java:102)
+	at com.iontrading.isf.executors.impl.SequentialExecutorServiceProxy$1.run(SequentialExecutorServiceProxy.java:153)
+	at com.iontrading.isf.executors.impl.monitoring.e.run(MonitoredRunnable.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:51:15:818|1087-00045:TALK.IONBUS: Subscription {ERROR} Action {Error while managing supply event} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+java.lang.IllegalStateException: Instantiation of class failed: class com.iontrading.ion20_simple_component.subscriberFunctions.PublisherTrade
+	at com.iontrading.talk.ionbus.impl.l.a(SupplyMapperImpl.java:230)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:213)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:178)
+	at com.iontrading.talk.ionbus.impl.k.fromSupply(SupplyMapperExtImpl.java:40)
+	at com.iontrading.talk.ionbus.subscriber.impl.l$1.run(SubscriptionExtNotifierImpl.java:102)
+	at com.iontrading.isf.executors.impl.SequentialExecutorServiceProxy$1.run(SequentialExecutorServiceProxy.java:153)
+	at com.iontrading.isf.executors.impl.monitoring.e.run(MonitoredRunnable.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:51:15:818|1087-00046:TALK.IONBUS: Subscription {ERROR} Action {Error while managing supply event} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+java.lang.IllegalStateException: Instantiation of class failed: class com.iontrading.ion20_simple_component.subscriberFunctions.PublisherTrade
+	at com.iontrading.talk.ionbus.impl.l.a(SupplyMapperImpl.java:230)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:213)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:178)
+	at com.iontrading.talk.ionbus.impl.k.fromSupply(SupplyMapperExtImpl.java:40)
+	at com.iontrading.talk.ionbus.subscriber.impl.l$1.run(SubscriptionExtNotifierImpl.java:102)
+	at com.iontrading.isf.executors.impl.SequentialExecutorServiceProxy$1.run(SequentialExecutorServiceProxy.java:153)
+	at com.iontrading.isf.executors.impl.monitoring.e.run(MonitoredRunnable.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:52:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:53:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:54:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:55:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:56:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:57:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {6} ForceDump {false} Status {Ok} Info {}
+10:57:41:037|0202-00037:TALK.IONBUS: Subscription {INFO} Action {Record Add} SubscriptionId {TradeService.PublisherTrade.TRADE.0} Record {ANY.Trade.R567.2} Price {314.654} qty {6} trader_Id {4} trader_Name {Aklai} Id {2}
+10:57:41:038|1087-00048:TALK.IONBUS: Subscription {ERROR} Action {Error while managing supply event} SubscriptionId {TradeService.PublisherTrade.TRADE.0}
+java.lang.IllegalStateException: Instantiation of class failed: class com.iontrading.ion20_simple_component.subscriberFunctions.PublisherTrade
+	at com.iontrading.talk.ionbus.impl.l.a(SupplyMapperImpl.java:230)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:213)
+	at com.iontrading.talk.ionbus.impl.l.fromSupply(SupplyMapperImpl.java:178)
+	at com.iontrading.talk.ionbus.impl.k.fromSupply(SupplyMapperExtImpl.java:40)
+	at com.iontrading.talk.ionbus.subscriber.impl.l$1.run(SubscriptionExtNotifierImpl.java:102)
+	at com.iontrading.isf.executors.impl.SequentialExecutorServiceProxy$1.run(SequentialExecutorServiceProxy.java:153)
+	at com.iontrading.isf.executors.impl.monitoring.e.run(MonitoredRunnable.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:58:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+10:59:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:00:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:01:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:02:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:03:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:04:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:05:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:06:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:07:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:08:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:09:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:10:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:11:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:12:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:13:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:14:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:15:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:16:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:17:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:18:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:19:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:20:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:21:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:22:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:23:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:24:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:25:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:26:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:27:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:28:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:29:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:30:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:31:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:32:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:33:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:34:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:35:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:36:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:37:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:38:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:39:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:40:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:41:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:42:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:43:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:44:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:45:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:46:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:47:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:48:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:49:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:50:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:51:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:52:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:53:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:54:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:55:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:56:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:57:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:58:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+11:59:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:00:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:01:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:02:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:03:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:04:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:05:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:06:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:07:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:08:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:09:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:10:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:11:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:12:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:13:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:14:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:15:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:16:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:17:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:18:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:19:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:20:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:21:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:22:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:23:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:24:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:25:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:26:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:27:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:28:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:29:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:30:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:31:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:32:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:33:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:34:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:35:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:36:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:37:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:38:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:39:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:40:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:41:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:42:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:43:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:44:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:45:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:46:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:47:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:48:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:49:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:50:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:51:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:52:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:53:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:54:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:55:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:56:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:57:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:58:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+12:59:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:00:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:01:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:02:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:03:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:04:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:05:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:06:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:07:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:08:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:09:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:10:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:11:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:12:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:13:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:14:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:15:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:16:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:17:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:18:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:19:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:20:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:21:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:22:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:23:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:24:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:25:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:26:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:27:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:28:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:29:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:30:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:31:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:32:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:33:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:34:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:35:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:36:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:37:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:38:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:39:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:40:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:41:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:42:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:43:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:44:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:45:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:46:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:47:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:48:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:49:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:50:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:51:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:52:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:53:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:54:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:55:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:56:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:57:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:58:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+13:59:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:00:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:01:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:02:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:03:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:04:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:05:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:06:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:07:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:08:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:09:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:10:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:11:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:12:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:13:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:14:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:15:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:16:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:17:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:18:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:19:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:20:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:21:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:22:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:23:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:24:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:25:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:26:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:27:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:28:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:29:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:30:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:31:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:32:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:33:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:34:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:35:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:36:13:642|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:37:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:38:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:39:13:641|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}
+14:40:13:640|0115-00041:EXECUTORS_MONITORING: {INFO} Action {Executors Monitoring} NThreads {7} ForceDump {false} Status {Ok} Info {}

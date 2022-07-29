@@ -1,0 +1,5 @@
+set Table {CT_CONNECTION}
+
+Load				\
+		{ComponentName} "Router_M" \
+		{ConnType} "INOUT"

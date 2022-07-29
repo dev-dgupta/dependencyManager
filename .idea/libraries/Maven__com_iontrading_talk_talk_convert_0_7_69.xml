@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.iontrading.talk:talk.convert:0.7.69">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/talk/talk.convert/0.7.69/talk.convert-0.7.69.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/talk/talk.convert/0.7.69/talk.convert-0.7.69-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/talk/talk.convert/0.7.69/talk.convert-0.7.69-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

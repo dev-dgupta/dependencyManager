@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.iontrading.isf:metadata:0.1.45">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/metadata/0.1.45/metadata-0.1.45.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/metadata/0.1.45/metadata-0.1.45-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/metadata/0.1.45/metadata-0.1.45-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

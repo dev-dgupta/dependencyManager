@@ -1,0 +1,29 @@
+#
+# PLATFORM REGISTRATION SECTION
+#
+mkv.component = STP1
+mkv.csport = 13000
+mkv.user = mkv
+mkv.pwd = mkv12
+mkv.cshost = dockerdev
+mkv.listen = 65447
+
+#
+# PLATFORM PUBLICATION SECTION
+#
+mkv.currency = ANY
+mkv.source = STP1
+
+#
+# TRACING SETTINGS SECTION
+#
+# File for ION 2.0 logs (default is the component name) 
+mkv.log_name = STP1
+# File for SLF4J logs (default is the component name) 
+mkv.ext.log_name = STP1
+# Enables ION BUS (PSH) logs at minimum level
+mkv.debug = 100
+# Enables ION 2.0 logs at minimum level (1=verbose,5=debug,10=info)
+mkv.log_threshold = 10
+# Enables third-party SLF4J logs at minimum level (1=verbose,5=debug,10=info)
+mkv.ext.log_threshold = 10
